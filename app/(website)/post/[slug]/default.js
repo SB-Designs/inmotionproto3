@@ -68,7 +68,6 @@ export default function Post(props) {
                       "dd MMMM, yyyy"
                     )}
                   </time>
-                  <span>· {post.estReadingTime || "5"} min read</span>
                 </div>
               </div>
             </div>
