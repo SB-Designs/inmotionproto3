@@ -81,12 +81,9 @@ export default function Featured({ post, pathPrefix }) {
                         parseISO(
                           post?.publishedAt || post._createdAt
                         ),
-                        "MMMM dd, yyyy"
+                        "dd MMMM, yyyy"
                       )}
                     </time>
-                    <span className="text-white">
-                      · {post.estReadingTime || "5"} min read
-                    </span>
                   </div>
                 </div>
               </div>
