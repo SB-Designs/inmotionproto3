@@ -53,22 +53,6 @@ export default function Contact({ settings }) {
       </div>
 
       <div className="grid my-10 md:grid-cols-2">
-        <div className="my-10">
-          <h2 className="text-2xl font-semibold dark:text-white">
-            Contact Us
-          </h2>
-
-          <div className="mt-5">
-            {settings?.email && (
-              <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-gray-400">
-                <EnvelopeIcon className="w-4 h-4" />
-                <a href={`mailto:${settings.email}`}>
-                  {settings.email}
-                </a>
-              </div>
-            )}
-          </div>
-        </div>
         <div>
           <form onSubmit={handleSubmit(onSubmit)} className="my-10">
             <input
