@@ -65,7 +65,7 @@ export default function Post(props) {
                     dateTime={post?.publishedAt || post._createdAt}>
                     {format(
                       parseISO(post?.publishedAt || post._createdAt),
-                      "MMMM dd, yyyy"
+                      "dd MMMM, yyyy"
                     )}
                   </time>
                   <span>· {post.estReadingTime || "5"} min read</span>
