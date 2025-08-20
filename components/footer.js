@@ -13,11 +13,11 @@ export default function Footer(props) {
       </div>
       <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
         <span>
-          {" "}
           <a
             href="https://sbdesigns-is-a.dev"
             rel="noopener"
-            target="_blank">
+            target="_blank"
+          >
             SB Designs
           </a>
         </span>
@@ -31,6 +31,8 @@ export default function Footer(props) {
 }
 
 const Backlink = () => {
-  return (
-  );
+  // If you want nothing displayed, just return null or an empty fragment
+  return null;
+  // Or, alternatively:
+  // return <></>;
 };
