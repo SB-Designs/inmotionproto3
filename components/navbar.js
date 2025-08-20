@@ -17,15 +17,16 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "Contact",
-      href: "/contact"
+      label: "Archive",
+      href: "/archive"  
     }
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
-      href: "/archive"
+      label: "Email Us",
+      href: "mailto:hello@sbdesigns.is-a.dev"
+      external: true
     },
     {
       label: "Android App",
