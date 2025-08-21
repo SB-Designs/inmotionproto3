@@ -24,8 +24,8 @@ export default function Navbar(props) {
 
   const rightmenu = [
     {
-      label: "Email Us",
-      href: "mailto:hello@sbdesigns.is-a.dev",
+      label: "SB Designs",
+      href: "https://sbdesigns.is-a.dev",
       external: true
     },
     {
