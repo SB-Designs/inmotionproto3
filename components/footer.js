@@ -1,5 +1,4 @@
 import Container from "@/components/container";
-import ThemeSwitch from "@/components/themeSwitch";
 import Image from "next/image";
 import { myLoader } from "@/utils/all";
 
@@ -20,9 +19,6 @@ export default function Footer(props) {
             SB Designs
           </a>
         </span>
-      </div>
-      <div className="mt-2 flex items-center justify-between">
-        <ThemeSwitch />
       </div>
       <Backlink />
     </Container>
