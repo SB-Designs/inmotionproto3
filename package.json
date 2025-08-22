@@ -1,12 +1,12 @@
 {
-  "name": "stablo-free",
-  "version": "3.0.0",
+  "name": "InMotion",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start",
+    "start": "next start",s
     "sanity": "sanity dev",
     "sanity-import": "sanity dataset import lib/sanity/data/production.tar.gz production",
     "sanity-export": "sanity dataset export production lib/sanity/data/production.tar.gz",
@@ -41,7 +41,7 @@
     "react-refractor": "^2.1.7",
     "sanity": "^3.26.0",
     "sanity-plugin-asset-source-unsplash": "^1.1.2",
-    "@vercel/analytics": "latest"
+    "@vercel/analytics": "latest",
     "styled-components": "^6.1.8",
     "swr": "^2.2.4",
     "typescript": "^5.3.3"
