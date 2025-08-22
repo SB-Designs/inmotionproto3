@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start",s
+    "start": "next start",
     "sanity": "sanity dev",
     "sanity-import": "sanity dataset import lib/sanity/data/production.tar.gz production",
     "sanity-export": "sanity dataset export production lib/sanity/data/production.tar.gz",
