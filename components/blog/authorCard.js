@@ -24,7 +24,7 @@ export default function AuthorCard({ author }) {
         <div>
           <div className="mb-3">
             <h3 className="text-lg font-medium text-gray-800 dark:text-gray-300">
-              About {author.name}
+              {author.name}
             </h3>
           </div>
           <div>
